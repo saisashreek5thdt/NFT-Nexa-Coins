@@ -1,0 +1,151 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0cacae8;
+    color: #333;
+  }
+  
+  /* Navbar */
+  .navbar {
+    padding: 1rem 0;
+    background-color: #000000;  /* Bright pink background */
+  }
+  
+  .navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .navbar-toggler {
+    border-color: white;
+  }
+  
+  .navbar-nav .nav-link {
+    color: white !important;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #ffeb3b;  /* Yellow hover effect */
+  }
+  
+  /* Hero Section */
+  section.bg-gradient {
+    background: linear-gradient(135deg, #ff4081, #3f51b5);  /* Pink to blue gradient */
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  h1.display-4 {
+    font-size: 3rem;
+    color: #ffeb3b;  /* Bright yellow */
+    font-weight: bold;
+  }
+  
+  p.text-light {
+    font-size: 1.2rem;
+    color: #ffffff;
+  }
+  
+  button {
+    border-radius: 30px;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    transition: transform 0.3s ease;
+  }
+  
+  button:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Button Colors */
+  .btn-success {
+    background-color: #4caf50;
+    border-color: #4caf50;
+  }
+  
+  .btn-primary {
+    background-color: #2196f3;
+    border-color: #2196f3;
+  }
+  
+  /* Stats Section */
+  section.container {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    color: #333;
+    border: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card .fs-4 {
+    font-size: 2.5rem;
+    color: #ff4081;  /* Bright pink */
+  }
+  
+  .card p {
+    color: #555;
+    font-size: 1.1rem;
+  }
+  
+  /* Features Section */
+  section.bg-secondary {
+    background-color: #ffffff;  /* Green background */
+    color: white;
+    padding: 50px 0;
+  }
+  
+  h2.text-center {
+    font-size: 2.5rem;
+    color: #ffeb3b;  /* Yellow */
+  }
+  
+  .card.bg-dark {
+    background-color: #3f51b5;  /* Blue background */
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+  }
+  
+  .card h3 {
+    font-size: 1.5rem;
+    color: #ffeb3b;  /* Yellow */
+  }
+  
+  .card p {
+    font-size: 1rem;
+    color: #ffffff;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #3f51b5;  /* Blue footer */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 1rem;
+    color: #eeeeee;
+  }
+  
